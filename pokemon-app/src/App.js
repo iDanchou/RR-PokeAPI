@@ -26,7 +26,7 @@ function App() {
         <>
         <div>
           <h2>{currentPokemon.name}</h2>
-          <img src={currentPokemon.sprites.front_default} alt={currentPokemon.name} />
+          <img src={currentPokemon.sprites.front_shiny} alt={currentPokemon.name} />
         </div>
         <div>
           <ul>
